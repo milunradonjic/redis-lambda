@@ -44,7 +44,6 @@ npx projen synth
 5. Deploy the project using an optional AWS CLI profile:
 ```
 npx projen deploy --all [--profile <profile>]
-
 ```
 
 *Note: 
@@ -57,5 +56,4 @@ Build and Synth are optional as well.*
 Run tests for the project:
 ```
 npx projen test
-
 ```
