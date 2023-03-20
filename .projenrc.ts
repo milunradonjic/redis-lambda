@@ -12,5 +12,7 @@ const project = new DeployableAwsCdkTypeScriptApp({
   authorEmail: 'milun.radonjic95@gmail.com',
   repository: 'https://github.com/milunradonjic/redis-lambda',
   packageName: 'redis-lambda',
+  buildWorkflow: false,
+  release: false,
 });
 project.synth();
