@@ -10,7 +10,7 @@ const project = new DeployableAwsCdkTypeScriptApp({
   ],
   authorName: 'Milun Radonjic',
   authorEmail: 'milun.radonjic95@gmail.com',
-  repository: 'https://github.com/milunradonjic/ottofeller-task',
-  packageName: 'ottofeller-task',
+  repository: 'https://github.com/milunradonjic/redis-lambda',
+  packageName: 'redis-lambda',
 });
 project.synth();

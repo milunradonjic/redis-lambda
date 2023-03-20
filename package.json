@@ -1,8 +1,8 @@
 {
-  "name": "ottofeller-task",
+  "name": "redis-lambda",
   "repository": {
     "type": "git",
-    "url": "https://github.com/milunradonjic/ottofeller-task"
+    "url": "https://github.com/milunradonjic/redis-lambda"
   },
   "scripts": {
     "build": "npx projen build",
