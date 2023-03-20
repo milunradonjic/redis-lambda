@@ -33,23 +33,18 @@ cd ottofeller-task
 ```
 npx projen
 ```
-3. Build the project [Optional]
+3. Build the project
 ```
 npx projen build
 ```
-4. Synth [Optional]
-```
-npx projen synth
-```
-5. Deploy the project using an optional AWS CLI profile:
+4. Deploy the project using an optional AWS CLI profile:
 ```
 npx projen deploy --all [--profile <profile>]
 ```
 
 *Note: 
 You might have to run `cdk bootstrap [--profile <profile>]`
-The --profile flag is optional. Use it if you want to specify a specific AWS CLI profile for deployment. 
-Build and Synth are optional as well.*
+The --profile flag is optional. Use it if you want to specify a specific AWS CLI profile for deployment.*
 
 ## Testing
 
