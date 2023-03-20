@@ -1,4 +1,4 @@
-# Ottofeller Task
+# Redis Lambda
 
 This project is an AWS CDK app that creates a simple Lambda function which interacts with an Amazon ElastiCache Redis cluster. The app is generated using Projen with the `deployable-awscdk-app-ts` template from [here](https://github.com/AminFazlMondo/deployable-awscdk-app-ts).
 
@@ -26,8 +26,8 @@ You might have to run `dk bootstrap [--profile <profile>]`
 
 1. Clone the repository
 ```
-git clone https://github.com/milunradonjic/ottofeller-task.git
-cd ottofeller-task
+git clone https://github.com/milunradonjic/redis-lambda.git
+cd redis-lambda
 ```
 2. Install dependencies:
 ```
