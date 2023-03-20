@@ -1,10 +1,10 @@
 import { createClient } from 'redis';
 
-type RedisClient = ReturnType<typeof createClient> & { connected: boolean };
+type RedisClient = ReturnType<typeof createClient> & { connected?: boolean };
 type Event = Record<string, any>;
 type Response = { statusCode: number; body: string }
 
-const client: RedisClient = createClient({
+export const client: RedisClient = createClient({
   url: process.env.CACHE_URL,
 });
 
